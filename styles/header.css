@@ -1,0 +1,33 @@
+body{background-color: white;
+}
+.nav-overflow{display: flex;
+justify-content: center;
+font-size: medium;
+align-items: center;
+height: 100px;
+font-family: roboto;}
+a:hover{background-color: transparent;}
+a{color: rgb(103, 103, 103);
+font-weight:100;}
+
+@font-face{
+  font-family: roboto;
+  src: url(../fonts/static/Roboto-Regular.ttf);
+}
+
+.nav{gap: 30px;}
+.headericon{width: 50px;
+height: 50px;}
+h1{color: rgb(103, 103, 103);
+font-size: xx-large;
+font-weight: bold;}
+.spantitle{color: rgb(103, 103, 103);
+font-size: medium;}
+.maionone{display: flex;
+justify-content: space-around;} 
+
+
+hr{width: 90%;
+margin: auto;
+}
+
