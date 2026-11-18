@@ -1,12 +1,12 @@
 body{background-color: white;
 }
-.nav-overflow{display: flex;
+/* .nav-overflow{display: flex;
 justify-content: center;
 font-size: medium;
 align-items: center;
 height: 100px;
 font-family: roboto;}
-a:hover{background-color: transparent;}
+a:hover{background-color: white;}
 a{color: rgb(103, 103, 103);
 font-weight:100;}
 
@@ -15,19 +15,61 @@ font-weight:100;}
   src: url(../fonts/static/Roboto-Regular.ttf);
 }
 
-.nav{gap: 30px;}
-.headericon{width: 50px;
-height: 50px;}
-h1{color: rgb(103, 103, 103);
+.nav{gap: 30px;} */
+/* .headericon{width: 50px;
+height: 50px;} */
+/* h1{color: rgb(103, 103, 103);
 font-size: xx-large;
 font-weight: bold;}
 .spantitle{color: rgb(103, 103, 103);
-font-size: medium;}
-.maionone{display: flex;
-justify-content: space-around;} 
+font-size: medium;} */
+/* .maionone{display: flex;
+  flex-direction: row;
+justify-content: space-between;} 
 
+
+.nav{display: inline-block;} */
+
+
+/* hr{width: 90%;
+margin: auto;
+} */
+ @font-face{font-family: roboto;
+src: url(../fonts/static/Roboto-Light.ttf);}
+
+.mainone{display: flex;
+justify-content: space-around;
+gap: 15%;
+margin: auto;
+width: 90%;}
+
+.headericon{width: 50px;
+height: 50px;}
+
+.iconplustitle{display: flex;
+flex-direction: row;
+color: rgb(103,103,103);}
+
+/* .nav-overflow{} */
 
 hr{width: 90%;
 margin: auto;
+margin-top: 30px;
 }
 
+h1{font-size: 24px;
+font-weight: bold;}
+.spantitle{font-size: 12px;
+font-family: roboto;
+font-weight: 400;}
+
+
+.spanplush1{line-height: 1.3;}
+
+.nav-link:hover{background-color: white;}
+/* .nav-link:active{background-color: white;} */
+.nav-link:focus{background-color: white;}
+
+.nav-link{color: rgb(103,103,103);
+font-family: roboto;
+}

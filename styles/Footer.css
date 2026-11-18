@@ -1,0 +1,98 @@
+.hr1{width: 90%;
+margin: auto;
+margin-bottom: 50px;}
+
+
+.Mailsvg{width: 40px;
+height: 40px;
+display: flex;
+justify-self: center;
+margin-bottom: 20px;}
+
+
+
+@font-face{
+    font-family: italicc;
+    src: url(../fonts/static/PlayfairDisplay-Italic.ttf);
+}
+
+
+@font-face{font-family: roboto;
+src: url(../fonts/static/Roboto-Light.ttf);}
+
+
+
+.Ftitle{display: flex;
+justify-self: center;
+margin-bottom: 30px;}
+
+.PFtitle{font-family: italicc;
+font-size: 40px;
+color: rgb(103,103,103);}
+
+
+.UFtitle{display: flex;
+justify-self: center;}
+
+.UPFtitle{font-size: 20px;
+color: rgb(103,103,103);
+margin-bottom: 50px;}
+
+
+.BittonAbt{width: 100%;
+height: 100%;
+border: 2px solid #ff8c00;
+border-color: #ff8c00;
+background-color: white;
+color: #ff8c00;
+transition: background-color 0.5s ease;
+box-shadow: none;
+}
+
+.AbtButton{width: 150px;
+height: 40px;
+margin-top: 30px;
+display: flex;
+align-self: center;
+}
+
+
+.BittonAbt:hover{color: white;
+background-color: #ff8c00;
+cursor: pointer;
+}
+
+
+
+.form{display: flex;
+flex-direction: column;
+justify-self: center;
+width: 35%;}
+
+
+.inpEmail{border-top: 0;
+border-left: 0;
+border-right: 0;
+}
+
+
+Label{font-family: roboto;
+font-size: 14px;}
+
+
+.appsheader{display: flex;
+justify-self: center;
+margin-top: 20px;
+gap: 10px;}
+
+
+.hr2{width: 90%;
+margin: auto;
+margin-top: 50px;}
+
+
+.end{display: flex;
+justify-self: center;}
+
+.Pend{color: rgb(103,103,103);
+margin-top: 30px;}

@@ -5,12 +5,14 @@ min-height: 100vh;
 padding: 0; */
 }
 
-iframe{width: 100%;
+.iHeader{width: 100%;
 height: 150px;
-/* position: fixed; */
+position: fixed;
+z-index: 1000;
 }
 main{width: 100%;
-height: 300px;}
+margin-top: 150px;
+}
 
 
 @font-face{
@@ -129,12 +131,12 @@ height: 40px;}
 justify-self: center;
 font-family: italicc;
 margin-top: 30px;
-font-size: xx-large;
+font-size: 40px;
 margin-bottom: 50px;
 color: rgb(103,103,103);}
 
 
-.cardMg{width: 450px;
+.cardMg{width: 100%;
 height: 450px;
 filter: brightness(50%);}
 
@@ -157,4 +159,241 @@ position: absolute;
 bottom: 90%;
 font-size: 12px;
 font-family: roboto;
-margin-left: 20px;}
+margin-left: 20px;
+}
+
+
+.textonP2{color: white;
+position: absolute;
+bottom: 5%;
+margin-left: 30px;
+font-size: 24px;
+font-family: roboto;
+font-weight: bold;
+letter-spacing: 2px;
+width: 400px;
+line-height: 30px;}
+.P2{width: 100%;} 
+
+
+/* From Uiverse.io by KSAplay */ 
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  transition: 100ms;
+}
+
+.checkmark {
+  top: 0;
+  left: 0;
+  height: 2em;
+  width: 2em;
+  transition: 100ms;
+  animation: dislike_effect 400ms ease;
+}
+
+.container input:checked ~ .checkmark path {
+  fill: #FF5353;
+  stroke-width: 0;
+}
+
+.container input:checked ~ .checkmark {
+  animation: like_effect 400ms ease;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes like_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dislike_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}/*დაგულების ღილაკის ბოლო*/
+
+.iconP{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 5px;
+/* width: 90%; */
+}
+.numero{font-size: 12px;
+font-weight: 400;
+margin-right: 10px;}
+
+.TWO{display: flex;
+flex-direction: row;
+gap: 5px;
+align-items: center;}
+
+.heartred{width: 30px;
+height: 30px;
+display: flex;
+padding-top: 10px;
+justify-self: center;
+align-self: center;
+/* margin-left: 400px; */
+}
+
+.hrftw{width: 90%;
+margin:auto;
+margin-top: 70px;
+margin-bottom: 80px;}
+
+
+.Bglove{width: 40px;
+height: 40px;
+transform: rotate(40deg);
+display: flex;
+justify-self: center;
+margin-bottom: 30px;}
+
+
+
+.AbtMe{display: flex;
+justify-self: center;
+justify-content: center;
+}
+
+.PabtMe{font-size: 40px;
+color: rgb(103, 103, 103);
+font-family: italicc;
+margin-bottom: 50px;}
+
+
+/* .TextAbt{display: flex;
+flex-direction: row;
+} */
+
+.Abtimg{display: inline;}
+
+.AboutTIO{display: flex;
+flex-direction: row;
+/* justify-content: space-around; */
+margin-left: 10%;
+gap: 7%;}
+
+.BittonAbt{width: 100%;
+height: 100%;
+border: 2px solid #ff8c00;
+border-color: #ff8c00;
+background-color: white;
+color: #ff8c00;
+transition: background-color 0.5s ease;
+box-shadow: none;}
+
+.AbtButton{width: 150px;
+height: 40px;
+margin-top: 30px;}
+
+
+.BittonAbt:hover{color: white;
+background-color: #ff8c00;
+cursor: pointer;
+}
+
+
+.PtitleAbt{font-family: italicc;
+font-size: xx-large;
+color: rgb(103, 103, 103);
+width: 50%;
+line-height: 40px;}
+
+.TitleAbt{margin-bottom: 30px;}
+
+.PtextAbt{font-family: roboto;
+font-size: 14px;
+word-spacing: 3px;
+line-height: 25px;
+width: 100%;}
+
+.TextAbt{
+width: 29%;
+display: flex;
+align-self: center;}
+
+
+/* .mrsimg{
+width: 650px;
+height: 530px;} */
+
+.hrftw2{
+width: 90%;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 120px;}
+
+
+.svgboxes{width: 40px;
+height: 40px;
+display: flex;
+justify-self: center;
+margin-bottom: 30px;}
+
+
+.HTtitle{display: flex;
+justify-self: center;
+margin-bottom: 30px;}
+
+.HTtext{font-family: italicc;
+font-size: 40px;
+color: rgb(103, 103, 103);}
+
+
+
+.lastcards{width: 100%;
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+
+.Lcard{width: 15%;
+height: 230px;}
+
+.Lcardimg{height: 100%;
+width: 100%;}
+
+
+.hrftw3{width: 95%;
+margin: auto;
+margin-top: 10px;}
+
+.iFooter{width: 100%;
+height: 550px;}
