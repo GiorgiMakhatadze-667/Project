@@ -5,9 +5,15 @@ min-height: 100vh;
 padding: 0; */
 }
 
-.iHeader{width: 100%;
-height: 150px;
+.iHeader{
+  /* width: 100%;
+height: 150px;*/
 position: fixed;
+
+    width: 100%;
+    height: 100px;
+    border: none;
+    overflow: hidden;
 z-index: 1000;
 }
 main{width: 100%;
@@ -60,6 +66,13 @@ margin-bottom: 130px;}
 height: 180px;}
 
 
+.karuself:hover{
+transform: translateY(-6px);
+box-shadow: 0 12px 24px black;
+filter: brightness(80%);
+}
+
+
 .underkd{margin-top: 10px;}
 .underkp{margin-bottom: 10px;
 font-family: italicc;
@@ -94,7 +107,6 @@ margin-top: 50px;
 flex-wrap: wrap;
 font-size: 34px;
 font-family: italicc;
-/* width: 510px; */
 width: 36%;
 margin-bottom: 50px;
 text-align: center;
@@ -139,6 +151,10 @@ color: rgb(103,103,103);}
 .cardMg{width: 100%;
 height: 450px;
 filter: brightness(50%);}
+
+.cardMg:hover{filter: brightness(70%);
+transform: translateY(-10px);
+    box-shadow: 0 10px 25px black;}
 
 .cardM{position: relative;
 }
@@ -397,3 +413,442 @@ margin-top: 10px;}
 
 .iFooter{width: 100%;
 height: 550px;}
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+
+    .mainkarusel {
+        width: 95%;
+        margin: 0 auto 100px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainkarusel > div {
+        width: calc(20% - 24px);
+    }
+
+    .karuself {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-group {
+        max-width: 75%;
+    }
+
+    .textonP2 {
+        width: calc(100% - 40px);
+        font-size: 20px;
+    }
+
+    .AboutTIO {
+        margin-left: 5%;
+        gap: 5%;
+    }
+
+    .Abtimg {
+        width: 50%;
+    }
+
+    .Abtimg img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .TextAbt {
+        width: 40%;
+    }
+
+    .PtitleAbt {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .lastcards {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Lcard {
+        width: 17%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1050px) {
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .mainkarusel {
+        gap: 25px;
+    }
+
+    .mainkarusel > div {
+        width: calc(33.333% - 20px);
+    }
+
+    .divunderHsvg {
+        width: 65%;
+        font-size: 30px;
+    }
+
+    .card-group {
+        max-width: 85%;
+        gap: 25px;
+    }
+
+    .cardMg {
+        height: 350px;
+    }
+
+    .textonP2 {
+        font-size: 17px;
+        line-height: 24px;
+        width: calc(100% - 30px);
+        margin-left: 15px;
+    }
+
+    .AboutTIO {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        gap: 5%;
+    }
+
+    .PtitleAbt {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .PtextAbt {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .Lcard {
+        width: 28%;
+    }
+
+}
+
+
+
+
+@media (max-width: 770px) {
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mainkarusel {
+        width: 90%;
+        gap: 25px;
+    }
+
+    .mainkarusel > div {
+        width: calc(50% - 15px);
+    }
+
+    .divunderHsvg {
+        width: 85%;
+        font-size: 27px;
+    }
+
+    .divunderforkspoon {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .card-group {
+        grid-template-columns: 1fr;
+        max-width: 85%;
+        gap: 25px;
+    }
+
+    .cardMg {
+        height: 400px;
+    }
+
+    .textonP {
+        top: 20px;
+        bottom: auto;
+    }
+
+    .textonP2 {
+        bottom: 15px;
+        font-size: 21px;
+        line-height: 27px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    .AboutTIO {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        gap: 30px;
+    }
+
+    .Abtimg {
+        width: 100%;
+    }
+
+    .Abtimg img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .TextAbt {
+        width: 100%;
+    }
+
+    .PtitleAbt {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .PtextAbt {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .lastcards {
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .Lcard {
+        width: 42%;
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .iHeader {
+        height: 120px;
+    }
+
+    main {
+        margin-top: 120px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    .mainkarusel {
+        width: 94%;
+        gap: 15px;
+        margin-bottom: 80px;
+    }
+
+    .mainkarusel > div {
+        width: calc(50% - 8px);
+    }
+
+    .underkp {
+        font-size: 16px;
+    }
+
+    .underkp2 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .divunderHsvg {
+        width: 90%;
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .minidivHsvg {
+        justify-content: center;
+    }
+
+    .divunderforkspoon {
+        font-size: 27px;
+    }
+
+    .card-group {
+        max-width: 92%;
+        gap: 20px;
+    }
+
+    .cardMg {
+        height: 300px;
+    }
+
+    .textonP {
+        font-size: 11px;
+        margin-left: 12px;
+    }
+
+    .textonP2 {
+        font-size: 17px;
+        line-height: 23px;
+        margin-left: 15px;
+        width: calc(100% - 30px);
+    }
+
+    .iconP {
+        gap: 3px;
+    }
+
+    .heartred {
+        width: 25px;
+        height: 25px;
+    }
+
+    .PabtMe {
+        font-size: 30px;
+    }
+
+    .AboutTIO {
+        width: 92%;
+    }
+
+    .PtitleAbt {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .PtextAbt {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .AbtButton {
+        width: 140px;
+    }
+
+    .lastcards {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .Lcard {
+        width: 45%;
+        height: 160px;
+    }
+
+}
+
+
+
+
+@media (max-width: 350px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .mainkarusel {
+        width: 94%;
+        gap: 12px;
+    }
+
+    .mainkarusel > div {
+        width: calc(50% - 6px);
+    }
+
+    .karuself {
+        width: 100%;
+        height: auto;
+    }
+
+    .underkp {
+        font-size: 13px;
+    }
+
+    .underkp2 {
+        font-size: 10px;
+    }
+
+    .divunderHsvg {
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .divunderforkspoon {
+        font-size: 24px;
+    }
+
+    .card-group {
+        max-width: 94%;
+        gap: 15px;
+    }
+
+    .cardMg {
+        height: 240px;
+    }
+
+    .textonP {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .textonP2 {
+        font-size: 13px;
+        line-height: 19px;
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .numero {
+        font-size: 10px;
+        margin-right: 4px;
+    }
+
+    .heartred {
+        width: 22px;
+        height: 22px;
+    }
+
+    .PabtMe {
+        font-size: 26px;
+    }
+
+    .PtitleAbt {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .PtextAbt {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .AbtButton {
+        width: 125px;
+        height: 35px;
+    }
+
+    .Lcard {
+        width: 45%;
+        height: 125px;
+    }
+
+}
