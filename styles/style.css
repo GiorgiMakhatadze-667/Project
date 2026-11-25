@@ -1,23 +1,19 @@
 body{display: flex;
 flex-direction: column;
 min-height: 100vh;
-/* margin: 0;
-padding: 0; */
 }
 
-.iHeader{
-  /* width: 100%;
-height: 150px;*/
-position: fixed;
-
+.iHeader {
     width: 100%;
-    height: 100px;
+    height: 180px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     border: none;
-    overflow: hidden;
-z-index: 1000;
+    display: block;
 }
 main{width: 100%;
-margin-top: 150px;
+margin-top: 50px;
 }
 
 
@@ -454,7 +450,6 @@ height: 550px;}
     .lastcards {
         height: auto;
         flex-wrap: wrap;
-        gap: 20px;
         margin-bottom: 30px;
     }
 
@@ -611,7 +606,6 @@ height: 550px;}
 
     .lastcards {
         justify-content: center;
-        gap: 15px;
         margin-bottom: 30px;
     }
 
@@ -627,7 +621,7 @@ height: 550px;}
 @media (max-width: 480px) {
 
     .iHeader {
-        height: 120px;
+        height: 160px;
     }
 
     main {
@@ -725,7 +719,7 @@ height: 550px;}
     }
 
     .lastcards {
-        gap: 10px;
+        
         margin-bottom: 30px;
     }
 

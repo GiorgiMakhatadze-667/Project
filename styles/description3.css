@@ -1,0 +1,279 @@
+.iHeader {
+    width: 100%;
+    height: 180px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: none;
+    display: block;
+}
+
+main {
+    width: 100%;
+}
+
+
+.iFooter{width: 100%;
+height: 550px;}
+
+
+@font-face{
+    font-family: italicc;
+    src: url(../fonts/static/PlayfairDisplay-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: Mont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+@font-face{font-family: roboto;
+src: url(../fonts/static/Roboto-Light.ttf);}
+
+.Mainborder{width: 50%;
+border: 1px solid rgb(192, 188, 188);
+display: flex;
+justify-self: center;
+flex-direction: column;
+margin-bottom: 50px;}
+
+.Ptitlediv{display: flex;
+justify-content: space-between;
+margin: 30px;
+color: rgb(103,103,103);
+font-family: Mont;
+font-size: 14px;}
+
+.TitleP{font-family: italicc;
+font-size:40px;
+color: rgb(103,103,103);}
+
+.Title{margin-bottom: 50px;
+display: flex;
+width: 90%;
+margin: auto;
+margin-bottom: 50px;
+justify-content: center;}
+
+
+
+.imgMainDiv{width: 100%;
+display: flex;
+justify-self: center;
+justify-content: center;
+margin-bottom: 50px;}
+
+.imgMain{width: 90%;}
+
+.text1div{display: flex;
+flex-direction: column;
+width: 90%;
+gap: 30px;
+margin-left: 45px;}
+
+/* .Dline1, .Dline2, .Dline3, .Dline4{
+width: 90%;
+} */
+
+.Dline3{border-left: 3px solid rgb(103,103,103);}
+
+.Pline3{padding-left: 10px;}
+
+.Pline1{font-family: Mont;
+line-height: 19px;
+font-weight: 500;}
+
+.Pline2{font-family: Mont;
+line-height: 19px;}
+
+.Pline3{font-family: roboto;
+font-size: 24px;
+line-height: 30px;}
+
+.Pline4{font-family: Mont;
+line-height: 19px;}
+
+.Dline4{margin-bottom: 30px;}
+
+ /*ქარდებიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიიი  */
+
+
+ /* .imageSdiv{display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+.Cimg{width: 90%;} */
+
+.imageSdiv{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 30px; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.imagediv{  height: 320px;}
+
+.Cimg{
+    /* width: 95%;
+    height: 250px;
+    object-fit: cover; */
+ width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.Pco{width: 90%;
+display: flex;
+justify-self: center;
+margin-top: 30px;
+margin-bottom: 30px;}
+
+.PcoP{font-family: Mont;
+font-weight: 500;
+padding-left: 40px;}
+
+/* qardeb cvemoT teqstiiiiiiiiiiiiiiii */
+
+.text2div{display: flex;
+flex-direction: column;
+width: 90%;
+gap: 30px;
+margin-left: 45px;
+margin-bottom: 50px;}
+
+
+.P2line1{font-family: Mont;
+line-height: 24px;
+font-size: 16px;
+color: rgb(41, 41, 41);}
+
+.P2line2{font-family: Mont;
+line-height: 24px;
+font-size: 16px;
+color: rgb(41, 41, 41);}
+
+
+.linkdiv{display: flex;
+    width: 90%;
+margin: auto;
+margin-bottom: 30px;}
+
+.xmaslink{padding-left: 10px;
+color: rgb(103,103,103);}
+
+.linkapps{display: flex;
+flex-direction: row;
+gap:20px;
+border-bottom: 1px solid rgb(103,103,103);
+border-top: 1px solid rgb(103,103,103);
+width: 90%;
+margin: auto;
+margin-bottom: 30px;}
+
+
+.app{padding-top: 20px;
+padding-bottom: 20px;}
+
+
+
+
+.con-like {
+  --red: rgb(255, 50, 50);
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.con-like .like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.con-like .checkmark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-like .outline,
+.con-like .filled {
+  fill: var(--red);
+  position: absolute;
+}
+
+.con-like .filled {
+  animation: kfr-filled 0.5s;
+  display: none;
+}
+
+.con-like .celebrate {
+  position: absolute;
+  animation: kfr-celebrate 0.5s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+
+.con-like .poly {
+  stroke: var(--red);
+  fill: var(--red);
+}
+
+.con-like .like:checked ~ .checkmark .filled {
+  display: block
+}
+
+.con-like .like:checked ~ .checkmark .celebrate {
+  display: block
+}
+
+@keyframes kfr-filled {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes kfr-celebrate {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    display: none;
+  }
+}
+
+
+.statsdiv{width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-bottom: 50px;
+font-family: roboto;
+font-size: 14px;}
