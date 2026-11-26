@@ -267,3 +267,180 @@ flex-direction: row;
 margin-bottom: 50px;
 font-family: roboto;
 font-size: 14px;}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1300px) {
+
+    .Mainborder {
+        width: 65%;
+    }
+
+    .text1div,
+    .text2div {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imageSdiv {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 10px;
+    }
+
+    .imagediv {
+        width: 31%;
+    }
+
+    .Cimg {
+        width: 100%;
+    }
+
+    .Pco {
+        width: 90%;
+    }
+
+    
+}
+
+
+@media (max-width: 900px) {
+
+    .Mainborder {
+        width: 80%;
+    }
+
+    .TitleP {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .imagediv {
+        width: 48%;
+    }
+
+    .Cimg {
+        height: 220px;
+    }
+
+    .Pline3 {
+        font-size: 21px;
+    }
+
+   
+}
+
+
+@media (max-width: 600px) {
+
+    .Mainborder {
+        width: 92%;
+    }
+
+    .Ptitlediv {
+        margin: 20px;
+        font-size: 12px;
+    }
+
+    .Title {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .TitleP {
+        font-size: 27px;
+    }
+
+    .imgMainDiv {
+        margin-bottom: 30px;
+    }
+
+    .text1div,
+    .text2div {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .Pline1,
+    .Pline2,
+    .Pline4,
+    .P2line1,
+    .P2line2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .Pline3 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .imageSdiv {
+        gap: 8px;
+    }
+
+    .imagediv {
+        width: 47%;
+    }
+
+    .Cimg {
+        height: 170px;
+    }
+
+    .PcoP {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .linkapps {
+        gap: 15px;
+    }
+
+   
+}
+
+
+@media (max-width: 400px) {
+
+    .Mainborder {
+        width: 96%;
+    }
+
+    .Ptitlediv {
+        margin: 15px;
+        font-size: 10px;
+    }
+
+    .TitleP {
+        font-size: 23px;
+    }
+
+    .imageSdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagediv {
+        width: 95%;
+    }
+
+    .Cimg {
+        height: 220px;
+    }
+
+    .Pline3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .statsdiv {
+        font-size: 12px;
+    }
+
+    
+}

@@ -277,3 +277,156 @@ flex-direction: row;
 margin-bottom: 50px;
 font-family: roboto;
 font-size: 14px;}
+
+
+
+/* რესპონსივიიიიიიიიიიიიიი */
+
+@media (max-width: 1300px) {
+
+    .Mainborder {
+        width: 65%;
+    }
+
+ .text1div,
+ .text2div {
+     width: 90%;
+        margin-left: auto;
+      margin-right: auto;
+    }
+
+.imageSdiv {
+    grid-template-columns: 1fr 1fr;
+     gap: 12px;
+    width: 90%;
+        margin: auto;
+ }
+ .imagediv {
+        height: 260px;
+    }
+ .Pco {
+        width: 90%; }
+
+   
+}
+
+
+@media (max-width: 900px) {
+
+ .Mainborder {
+        width: 80%;
+}
+
+ .TitleP {
+        font-size: 32px;
+      text-align: center;
+    }
+
+ .imagediv {
+        height: 220px;
+  }
+
+  .Pline3 {
+        font-size: 21px;
+   }
+
+   
+
+}
+
+
+@media (max-width: 600px) {
+
+.Mainborder {
+     width: 92%;
+    }
+    .Ptitlediv {
+        margin: 20px;
+  font-size: 12px;
+  }
+
+    .TitleP {
+       font-size: 27px;
+    }
+    .Title {
+        width: 95%;
+       margin-bottom: 30px;
+    }
+
+ .imgMainDiv {
+        margin-bottom: 30px;
+    }
+    .text1div,
+    .text2div {
+     width: 90%;
+        gap: 20px;
+    }
+    .Pline1,
+    .Pline2,
+ .Pline4,
+    .P2line1,
+    .P2line2 {
+     font-size: 14px;
+        line-height: 22px;
+    }
+    .Pline3 {
+        font-size: 19px;
+      line-height: 27px;
+    }
+
+  .imageSdiv {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+  }
+
+    .imagediv {
+      height: 160px;
+    }
+
+  .Pco {
+        margin-top: 20px;
+        margin-bottom: 20px;
+  }
+
+    .linkapps {
+      gap: 15px;
+    }
+
+  
+   
+}
+
+
+@media (max-width: 400px) {
+
+    .Mainborder {
+     width: 96%;
+    }
+
+    .Ptitlediv {
+      margin: 15px;
+        font-size: 10px;
+    }
+    .TitleP {
+        font-size: 23px;
+  }
+
+    .imageSdiv {
+      grid-template-columns: 1fr;
+    }
+
+    .imagediv {
+        height: 220px;
+    }
+
+    .Pline3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .statsdiv {
+        font-size: 12px;
+   }
+
+
+}
